@@ -143,14 +143,13 @@ h1{
 
 .local-restaurants{
 	width: 100%;
-	height: 700px;
+	height: 620px;
 	background-color: #f4f5f7;
 	background-image: url('img/broken-egg.png'), url('img/green-line.png'), url('img/green-line-1.png'), url('local-restaurants-salat.png');
 	background-repeat: no-repeat;
-	background-position: 93.5% 5%, 17% 10%, 17% 11%, 1000px ;
+	background-position: 93.5% 5%, 17% 10%, 17% 13%, 100% 0% ;
 	background-size: 200px, 117px, 117px, 1000px;
 	padding-top: 200px;
-	display: flex;
 }
 
 .local-restaurants h2{
@@ -264,6 +263,50 @@ h1{
 	top: 71.25%;
 	opacity: 0.8;
 }
+
+
+
+
+
+
+
+
+.place-order{
+	width: 100%;
+	height: 650px;
+	background-image: url('img/place-order-salat.png'), url('img/place-order-mushroom.png'), url('img/place-order-img.png'), url('img/green-line.png'), url('img/green-line.png');
+	background-repeat: no-repeat;
+	background-size: 1400px, 200px, 200px, auto, auto;
+	background-position: 0% 0%, 70% 0%, 103% 50%, 50% 80%, 50% 83%;
+}
+
+.place-order-content{
+	font-family: 'Kayak Sans Bold';
+	font-size: 30px;
+	width: 550px;
+	padding: 250px 0px 0px 500px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
