@@ -6,13 +6,13 @@
 
 @font-face{
 	font-family: 'Kayak Sans Regular';
-	src: url("Fonts/kayak-sans-family/Kayak Sans Bold.otf");
+	src: url("Fonts/kayak-sans-family/Kayak Sans Regular.otf");
 	font-weight: normal;
 }
 
 @font-face{
 	font-family: 'Kayak Sans Light';
-	src: url("Fonts/kayak-sans-family/Kayak Sans Bold.otf");
+	src: url("Fonts/kayak-sans-family/Kayak Sans Light.otf");
 	font-weight: lighter;
 }
 
@@ -416,6 +416,113 @@ h1{
 
 
 
+
+
+
+.footer{
+	background-color: #262626;
+	height: 300px;
+	padding-top: 100px;
+}
+
+.footer-content{
+	border-top: 1px solid #3d3d3d;
+	display: flex;
+}
+
+.footer-content-main{
+	display: flex;
+}
+
+
+
+
+
+
+.footer-left{
+	width: 20%;
+}
+
+.language{
+	display: flex;
+	width: 140px;
+	border-bottom: 1px solid #3d3d3d;
+	height: 40px;
+	margin-top: 20px;
+}
+
+.footer-left p{
+	color: #fff;
+	font-family: 'Kayak Sans Regular';
+
+}
+
+.img-1{
+	margin-top: 10px;
+	margin-right: 10px;
+}
+
+.img-2{
+	margin-top: 21px;
+	margin-left: 30px;
+}
+
+
+.soc{
+	margin-left: -20px;
+	margin-top: 10px;
+}
+
+
+.company{
+	font-family: 'Times New Roman';
+	font-weight: 400;
+	font-size: 16px;
+	opacity: 0.2;
+	margin-top: 150px;
+}
+
+
+
+
+.columns{
+	display: flex;
+	width: 50%;
+}
+
+.column{
+	display: flex;
+	flex-direction: column;
+	font-family: 'Kayak Sans Light';
+	margin-left: 50px;
+}
+
+.column a{
+	text-decoration: none;
+	color: #fff; 
+	margin-top: 30px;
+}
+
+
+
+
+.apps{
+	float: right;
+	margin-top: 15px;
+}
+
+.apps-text{
+	font-family: 'Kayak Sans Regular';
+	font-size: 16px;
+	color: #fff;
+}
+
+.apps-images{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 10px;
+	width: 100%;
+}
 
 
 
